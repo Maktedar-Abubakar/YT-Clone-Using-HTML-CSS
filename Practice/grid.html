@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid practice</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: rgb(96, 191, 96)">div1</div>
+      <div style="background-color: rgb(61, 61, 180)">
+        div2
+        <p>Yokoso!!!!</p>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 1fr;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: rgb(96, 191, 96)">div1</div>
+      <div style="background-color: rgb(66, 219, 66)">div2</div>
+      <div style="background-color: rgb(61, 61, 180)">div3</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        margin-top: 10px;
+      "
+    >
+      <div style="background-color: rgb(96, 191, 96)">div1</div>
+      <div style="background-color: rgb(66, 219, 66)">div2</div>
+      <div style="background-color: rgb(61, 61, 180)">div3</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 40px;
+        margin-top: 20px;
+      "
+    >
+      <div style="background-color: rgb(248, 227, 192); height: 200px">
+        1fr
+        <p>Sample1</p>
+      </div>
+      <div style="background-color: rgb(202, 241, 202); height: 200px">
+        1fr
+        <p>sample2</p>
+      </div>
+      <div style="background-color: rgb(248, 227, 192); height: 200px">
+        1fr
+        <p>Sample1</p>
+      </div>
+      <div style="background-color: rgb(202, 241, 202); height: 200px">
+        1fr
+        <p>sample2</p>
+      </div>
+      <div style="background-color: rgb(248, 227, 192); height: 200px">
+        1fr
+        <p>Sample1</p>
+      </div>
+      <div style="background-color: rgb(202, 241, 202); height: 200px">
+        1fr
+        <p>sample2</p>
+      </div>
+    </div>
+  </body>
+</html>
